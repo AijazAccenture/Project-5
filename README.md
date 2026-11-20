@@ -69,16 +69,9 @@ sudo ./cleanup.sh      # remove everything created by this project (asks for con
 | clouduser (no team, no sudo) | List `dev` | Permission denied |
 
 ## Screenshots
-| # | Description | Image |
-|---|---|---|
-| P5-01 | sudo access confirmed | ![P5-01](screenshots/P5-01_sudo_check.png) |
-| P5-02 | Groups created | ![P5-02](screenshots/P5-02_groups_created.png) |
-| P5-03 | Users and group membership | ![P5-03](screenshots/P5-03_users_and_membership.png) |
-| P5-04 | Folder ownership and permissions | ![P5-04](screenshots/P5-04_folder_permissions.png) |
-| P5-05 | Allowed access tests | ![P5-05](screenshots/P5-05_allowed_access.png) |
-| P5-06 | Denied access tests | ![P5-06](screenshots/P5-06_denied_access.png) |
-| P5-07 | Shared folder (read-only) tests | ![P5-07](screenshots/P5-07_shared_folder.png) |
-| P5-08 | Automated test report (16/16 PASS) | ![P5-08](screenshots/P5-08_automated_tests.png) |
+Screenshots of every step (sudo check, groups, users, folder permissions,
+allowed access, denied access, shared folder and the automated 16/16 test report)
+are included in the project submission document.
 
 ## Key learnings and security observations
 - **Least privilege:** each user gets only the access their role needs.
@@ -96,6 +89,5 @@ project5-linux-permissions/
 |-- setup.sh           # Creates users, groups, folders and permissions
 |-- test_access.sh     # Automated allowed/denied access tests
 |-- cleanup.sh         # Removes everything created by setup.sh
-|-- .gitignore         # Files Git must never upload
-`-- screenshots/       # Evidence screenshots (P5-01 to P5-08)
+`-- .gitignore         # Files Git must never upload
 ~~~
