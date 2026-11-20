@@ -1,0 +1,22 @@
+# Temporary and log files
+*.tmp
+*.log
+
+# Secrets - NEVER commit these
+.env
+*.pem
+*.key
+credentials*
+*.secret
+
+# Editor backup / swap files
+*.swp
+*~
+
+# Editor and IDE settings
+.vscode/
+.idea/
+
+# Operating system junk
+.DS_Store
+Thumbs.db
